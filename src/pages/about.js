@@ -16,7 +16,9 @@ function About() {
 						Click me
 					</button>
 				</div>
-				<div className="col mt-3 display-1"><div aria-live="assertive">{count}</div></div>
+				<div className="col mt-3 display-1">
+					<div aria-live="polite">{count}</div>
+				</div>
 			</div>
 		</div>
 	);

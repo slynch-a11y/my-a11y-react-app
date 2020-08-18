@@ -10,13 +10,15 @@ function Contact() {
 			</Helmet>
 			<h1>Contact Us</h1>
 			<table>
-				<tr>
-					<th scope="col">Name</th>
-					<th scope="col">Phone</th>
-				</tr>
-				<tr>
-					<TableData />
-				</tr>
+				<tbody>
+					<tr>
+						<th scope="col">Name</th>
+						<th scope="col">Phone</th>
+					</tr>
+					<tr>
+						<TableData />
+					</tr>
+				</tbody>
 			</table>
 		</div>
 	);
