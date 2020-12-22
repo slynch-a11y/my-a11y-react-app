@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 if (process.env.NODE_ENV !== 'production') {
-  import('react-axe').then(axe => {
+  import('@axe-core/react').then(axe => {
     axe.default(React, ReactDOM, 1000);
     ReactDOM.render(<App />, document.getElementById('root'));
   });

@@ -3,7 +3,7 @@ import React from 'react';
 function Content() {
 	return (
 		<div>
-			<h2>Another Heading</h2>
+			<h4>Another Heading</h4>
 			<p>
 			Lorem ipsum dolor sit amet, <a href="www.yale.edu">onsectetur adipiscing elitc</a>, sed do eiusmod tempor incididunt ut labore et
 				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
