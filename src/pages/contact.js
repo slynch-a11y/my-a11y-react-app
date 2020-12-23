@@ -13,7 +13,7 @@ function Contact() {
 				<tbody>
 					<tr>
 						<th scope="col">Name</th>
-						<th scope="col">Phone</th>
+						<th scope="col">Email</th>
 					</tr>
 					<tr>
 						<TableData />

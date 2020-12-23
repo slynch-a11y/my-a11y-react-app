@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 
 function About() {
-	const [ count, setCount ] = useState(0);
+	const [ count, setCount ] = useState(null);
 
 	return (
 		<div>
